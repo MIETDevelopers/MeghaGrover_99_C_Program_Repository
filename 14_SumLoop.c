@@ -14,7 +14,6 @@
          number/=10;
      }
 
-     printf("Sum of digits =  %d\n",sum);    //print statement should b
- be according to Question
+     printf("Sum of digits =  %d\n",sum);    //print statement should be added according to question 
      return 0;      // return 0 to oprerating system
  }
