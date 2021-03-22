@@ -1,19 +1,20 @@
-//Name: Megha Grover
-//Program: Read the string in pointers loaction and give it as output.			
+//To demonstrate the use of various string operations
+//Name :Megha Grover
 
-#include <stdio.h>		//Pre-process directive to include standard input and output functions header file
+#include <stdio.h> //Pre-Process directive to include standard input output header file
+#include <string.h> //Pre-Process directive to include string input output header file
+int main()
+{
+    /* String Declaration*/
+    char nickname[20];
 
-int main(void) {
-  char name[] = "Ishav Verma";
+    /* Console display using puts */
+    puts("Enter your Nick name:");
 
-  printf("%c \n", *name);     	// Output will be I
-  printf("%c \n", *(name+3));	// Output will be A
-  printf("%c \n", *(name+8));   // Output will be R
+    /*Input using gets*/
+    gets(nickname);
 
-  char *namePtr;
+    puts(nickname);
 
-  namePtr = name;
-  printf("%c \n", *namePtr);     // Output will be I
-  printf("%c \n", *(namePtr+2)); // Output will be H
-  printf("%c \n", *(namePtr+7)); // Output will be E
+    return 0;
 }
