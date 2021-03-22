@@ -1,4 +1,4 @@
-/Name:Megha Grover 
+//Name:Megha Grover 
 // Program: Euclidean Program
 #include <stdio.h>//Pre-process directive to include standard input and output functions header file
 #include <math.h> //Pre-process directive to include mathematical functions header file
